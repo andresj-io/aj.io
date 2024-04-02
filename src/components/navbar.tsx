@@ -16,6 +16,24 @@ const Navbar = () => {
   };
   const navItems = [
     {
+      text: "About me",
+      href: "#about-me",
+    },
+    {
+      text: "Experience",
+      href: "#experience",
+    },
+    {
+      text: "Education",
+      href: "#education",
+    },
+    {
+      text: "Digital Badges",
+      href: "#digital-badges",
+    },
+  ];
+  const options = [
+    {
       title: "Andres Jacome",
       href: "/",
       src: "https://github.com/andresj-io.png",
@@ -27,13 +45,18 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 fixed left-0 right-0 top-0 z-50">
       <div className="flex-1">
         <Image alt={getTitle()} src={getSrc()} width={80} height={80} />
         <a className="btn btn-ghost text-xl">{getTitle()}</a>
+        {navItems.map((item) => (
+          <Link key={item.text} href={item.href} className="btn btn-ghost">
+            {item.text}
+          </Link>
+        ))}
       </div>
       <div>
-        {navItems.map((item) => (
+        {options.map((item) => (
           <Link
             key={item.title}
             href={item.href}

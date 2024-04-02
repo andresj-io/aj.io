@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
               placeholder="username@site.com"
               className="input input-bordered join-item"
             />
-            <button className="btn btn-primary join-item">Send!</button>
+            {/* <button className="btn btn-primary join-item">Send!</button> */}
           </div>
         </fieldset>
       </form>

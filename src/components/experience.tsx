@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { experience } from "../data/cv";
+import { experience } from "../data/experience";
 
 const Experience: React.FC = () => {
   return (
@@ -42,7 +42,11 @@ const Experience: React.FC = () => {
                 <span>{item.project}</span>
               )}
             </div>
-            <p>{item.detail}</p>
+            {item.details.map((detail, detailIndex) => (
+              <p key={detailIndex} className="text-sm">
+                {detail}
+              </p>
+            ))}
           </div>
           {index !== experience.length - 1 && <hr />}
         </li>
