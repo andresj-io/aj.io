@@ -1,6 +1,6 @@
 const Footer: React.FC = () => {
   return (
-    <footer className="footer bg-base-200 text-base-content p-10">
+    <footer id="footer" className="footer bg-base-200 text-base-content p-10">
       <nav>
         <h6 className="footer-title">About me</h6>
         <a className="link link-hover">Experience</a>

@@ -1,6 +1,13 @@
+// import { useRef } from "react";
+
 import Image from "next/image";
+// import Link from "next/link";
 
 const Hero: React.FC = () => {
+  // const footerRef = useRef(null);
+  // const handleButtonClick = () => {
+  //   footerRef.current.scrollIntoView({ behavior: "smooth" });
+  // };
   return (
     <div className="hero">
       <div className="hero-content flex-col lg:flex-row">
@@ -19,11 +26,11 @@ const Hero: React.FC = () => {
             processes, optimize system performance, and drive business growth.
             With a deep understanding of ABAP programming, I excel in developing
             scalable and customized applications that meet the unique
-            requirements of each client. Let&apo;s collaborate to elevate your
+            requirements of each client. Let&apos;s collaborate to elevate your
             SAP landscape with innovative ABAP solutions.
           </p>
           <button className="btn btn-primary">Contact Me</button>
-          <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+          {/* <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +64,7 @@ const Hero: React.FC = () => {
                 <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
               </svg>
             </a>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </div>
