@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { experience } from "../data/experience";
+import { experience } from "@/data/resume/experience";
 
 const Experience: React.FC = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
-import { education } from "../data/education";
+import { education } from "@/data/resume/education";
 
 const Education: React.FC = () => {
   return (
-    <div>
+    <>
       {education.map((item, index) => (
         <div key={index} className="mb-6">
           <h3 className="text-lg font-semibold">{item.title}</h3>
@@ -11,7 +11,7 @@ const Education: React.FC = () => {
           <p className="mb-2 text-sm text-gray-500">{item.date}</p>
         </div>
       ))}
-    </div>
+    </>
   );
 };
 
