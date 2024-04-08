@@ -44,7 +44,9 @@ const Hero: React.FC = () => {
             </Link>
             <Link
               className="btn btn-accent btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg ml-5"
-              href="/#footer"
+              href="/documents/CV_AndresJacome.pdf"
+              download="CV_AndresJacome.pdf"
+              target="_blank"
             >
               Get my CV
             </Link>

@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="navbar bg-base-100 sticky top-0 flex shadow-md z-40">
       <NavbarMenuButton />
       <Logo />
-      <div className="hidden flex-none lg:block">
+      <div className="hidden flex-none md:block">
         <ul className="menu menu-horizontal">
           <NavbarItems />
         </ul>

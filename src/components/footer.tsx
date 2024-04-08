@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <>
       <footer id="footer" className="footer bg-base-200 text-base-content p-10">
-        <form>
+        <form className="lg:ml-14">
           <h6 className="footer-title">Get in touch</h6>
           <ContactForm />
         </form>
@@ -24,12 +24,12 @@ const Footer: React.FC = () => {
         <a className="link link-hover">Languages</a>
       </nav>
       */}
-        <nav>
+        {/* <nav>
           <h6 className="footer-title">Services</h6>
           <a className="link link-hover">ABAP Consulting</a>
           <a className="link link-hover">Web Development</a>
           <a className="link link-hover">Marketing</a>
-        </nav>
+        </nav> */}
       </footer>
       <footer className="footer footer-center px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
         <aside className="flex justify-center">
