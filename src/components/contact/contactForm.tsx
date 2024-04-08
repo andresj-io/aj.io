@@ -24,7 +24,7 @@ const ContactForm: React.FC = () => {
         className="textarea textarea-bordered h-24 mb-2"
         placeholder="Leave a message and I'll get back to you as soon as possible!"
       ></textarea>
-      <button className="btn btn-info">Send</button>
+      <button className="btn btn-neutral">Send</button>
     </fieldset>
   );
 };

@@ -9,7 +9,7 @@ export type ExperienceType = {
 
 export const experience: ExperienceType = [
   {
-    date: "2024 --> Present",
+    date: "2024 - Present",
     role: "ABAP S/4 Sr. Consultant",
     company: "Z Dev LLC",
     project: "ENAFOR S/4HANA Migration - Algeria",
@@ -25,7 +25,7 @@ export const experience: ExperienceType = [
     ],
   },
   {
-    date: "Oct. 2022 --> Dec. 2023",
+    date: "Oct. 2022 - Dec. 2023",
     role: "ABAP Development Lead",
     company: "IBM",
     project: "YPF S/4HANA Phase 2 Implementation - Argentina",
@@ -39,7 +39,7 @@ export const experience: ExperienceType = [
     ],
   },
   {
-    date: "Feb. 2022 --> Oct. 2022",
+    date: "Feb. 2022 - Oct. 2022",
     role: "ABAP Sr. Consultant",
     company: "IBM",
     project: "Parque Arauco S/4HANA Migration - Chile",
@@ -51,7 +51,7 @@ export const experience: ExperienceType = [
     ],
   },
   {
-    date: "Aug. 2021 --> Feb. 2022",
+    date: "Aug. 2021 - Feb. 2022",
     role: "ABAP Sr. Consultant",
     company: "IBM",
     project: "LATAM Airlines S/4HANA Migration - Regional",
@@ -63,7 +63,7 @@ export const experience: ExperienceType = [
     ],
   },
   {
-    date: "Nov. 2020 --> Aug. 2021",
+    date: "Nov. 2020 - Aug. 2021",
     role: "ABAP Development Lead - Argentine Team",
     company: "IBM",
     project: "Alicorp S/4HANA Implementation - Regional",
@@ -77,7 +77,7 @@ export const experience: ExperienceType = [
     ],
   },
   {
-    date: "Feb. 2020 --> Nov. 2020",
+    date: "Feb. 2020 - Nov. 2020",
     role: "ABAP SSr. Developer",
     company: "IBM",
     project: "Kallpa S/4HANA Implementation - Peru",
@@ -85,7 +85,7 @@ export const experience: ExperienceType = [
     details: [`Custom developments in S4, reports, forms & enhancements.`],
   },
   {
-    date: "Jun. 2018 --> Jan. 2020",
+    date: "Jun. 2018 - Jan. 2020",
     role: "ABAP Jr. Developer",
     company: "IBM",
     project: "R3/ECC Maintenance Projects - Regional",
@@ -100,7 +100,7 @@ export const experience: ExperienceType = [
     ],
   },
   {
-    date: "Jun. 2015 --> Jun. 2017",
+    date: "Jun. 2015 - Jun. 2017",
     role: "Genexus Jr. Developer",
     company: "Tekhne S.A.",
     project: "Maintenance Projects - Argentina",

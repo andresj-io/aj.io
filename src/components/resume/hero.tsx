@@ -35,9 +35,20 @@ const Hero: React.FC = () => {
               innovative ABAP solutions.
             </p>
           </div>
-          <Link className="btn btn-primary btn-outline" href="/#footer">
-            Contact Me
-          </Link>
+          <div className="flex">
+            <Link
+              className="btn btn-primary btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg mr-5"
+              href="/#footer"
+            >
+              Contact Me
+            </Link>
+            <Link
+              className="btn btn-accent btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg ml-5"
+              href="/#footer"
+            >
+              Get my CV
+            </Link>
+          </div>
         </div>
       </div>
     </div>
