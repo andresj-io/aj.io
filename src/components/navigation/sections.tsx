@@ -5,12 +5,12 @@ import { navbarItems as navbarItemsResume } from "@/data/navigation/resume/navba
 import { navbarItems as navbarItemsZdev } from "@/data/navigation/zdev/navbar";
 import { usePathname } from "next/navigation";
 
-const NavbarItems = () => {
-  const NavbarItemsData =
+const Sections = () => {
+  const SectionsList =
     usePathname() === "/zdev" ? navbarItemsZdev : navbarItemsResume;
   return (
     <>
-      {NavbarItemsData.map((item) => (
+      {SectionsList.map((item) => (
         <li key={item.text} className="text-xs">
           <Link href={item.href} scroll={true}>
             {item.text}
@@ -21,4 +21,4 @@ const NavbarItems = () => {
   );
 };
 
-export default NavbarItems;
+export default Sections;

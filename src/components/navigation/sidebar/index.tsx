@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarItems from "../navbarItems";
+import NavbarItems from "../sections";
 
 const Sidebar = () => {
   return (

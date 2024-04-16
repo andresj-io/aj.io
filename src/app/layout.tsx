@@ -4,11 +4,29 @@ import "./globals.css";
 import Navbar from "@/components/navigation/navbar";
 import Sidebar from "@/components/navigation/sidebar";
 import Footer from "@/components/footer";
+import { generalData } from "@/data/general/general";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Andres Jacome",
-  description: "My personal website",
+  title: `${generalData.name} - ${generalData.jobTitle}`,
+  description: generalData.about,
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "",
+    siteName: `${generalData.name} - ${generalData.jobTitle}`,
+    title: `${generalData.name} - ${generalData.jobTitle}`,
+    description: generalData.about,
+    images: [
+      {
+        url: "",
+        width: 1200,
+        height: 630,
+        alt: `${generalData.name} - ${generalData.jobTitle}`,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

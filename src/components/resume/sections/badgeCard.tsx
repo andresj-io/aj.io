@@ -12,7 +12,7 @@ const BadgeCard: React.FC<BadgeCardProps> = ({ badge }) => {
       href={badge.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="carousel-item card bg-base-100 rounded-box m-1 w-72 items-center justify-center scroll-ml-2"
+      className="carousel-item card bg-base-100 rounded-box m-1 w-60 items-center justify-center scroll-ml-2"
     >
       <Image
         src={badge.image}

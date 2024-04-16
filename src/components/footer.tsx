@@ -1,20 +1,19 @@
 import ContactForm from "./contact/contactForm";
 import ContactInfo from "./contact/contactInfo";
-import ContactLinks from "./contact/contactLinks";
 import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
     <>
-      <footer id="footer" className="footer bg-base-200 text-base-content p-10">
-        <form className="lg:ml-14">
-          <h6 className="footer-title">Get in touch</h6>
-          <ContactForm />
-        </form>
+      <footer
+        id="footer"
+        className="footer bg-base-200 text-base-content p-10 scroll-mt-24"
+      >
+        <ContactForm />
         <nav>
           <h6 className="footer-title">Contact Info</h6>
           <ContactInfo />
-          <ContactLinks />
+          {/* <ContactLinks /> */}
         </nav>
         {/* <nav>
         <h6 className="footer-title">About me</h6>

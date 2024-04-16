@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Logo = () => {
+const Logo: React.FC = () => {
   const pathname = usePathname();
   const getTitle = () => {
     return pathname === "/zdev" ? "Z Dev LLC" : "Andrés Jácome";
@@ -20,6 +20,9 @@ const Logo = () => {
       <Image alt={getTitle()} src={getSrc()} width={80} height={80} />
       <Link className="btn btn-ghost hidden text-xl md:flex" href="/">
         {getTitle()}
+      </Link>
+      <Link className="btn btn-ghost md:hidden text-xl sm:flex" href="/">
+        {pathname}
       </Link>
     </div>
   );
