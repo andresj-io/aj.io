@@ -7,7 +7,7 @@ import NavbarMenuButton from "./NavbarMenuButton";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 sticky top-0 flex shadow-md z-40">
+    <header className="navbar bg-base-100 sticky top-0 flex shadow-md z-40">
       <NavbarMenuButton />
       <Logo />
       <div className="hidden flex-none lg:block">
@@ -16,7 +16,7 @@ const Navbar = () => {
         </ul>
       </div>
       <SitesLinks />
-    </div>
+    </header>
   );
 };
 

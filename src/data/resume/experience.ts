@@ -19,7 +19,7 @@ export const experience: ExperienceType = [
       Enafor, an oil & gas company in Algeria.Employed by Logient, a
       Canadian company, to lead the technological transition.`,
       `Collaborating with cross - functional teams to ensure the successful
-      migration and system integration.Developed UT classes, code fixes
+      migration and system integration. Developed UT classes, code fixes
       and performed troubleshooting to facilitate a smooth transition to
       the SAP S / 4HANA platform.`,
     ],

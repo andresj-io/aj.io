@@ -1,9 +1,20 @@
 import { z } from "zod";
-import { formSchema } from "@/types/form";
+import { formSchemaType, FormSchema } from "@/lib/types";
 
-export default function validateForm(formData: FormData) {
+export default function validateForm(
+  formData: FormData | formSchemaType | unknown,
+) {
   try {
-    return formSchema.parse(FormData);
+    console.log(formData);
+    if (formData instanceof FormData) {
+      const data = Object.fromEntries(formData.entries());
+      return FormSchema.parse(data);
+    } else if (typeof formData === "object") {
+      return FormSchema.parse(formData);
+    } else {
+      console.log("Invalid form data");
+      throw new Error("Invalid form data");
+    }
   } catch (error: any) {
     console.log(error);
     let errorMesssage = "Form validation failed:\n";
@@ -19,12 +30,6 @@ export default function validateForm(formData: FormData) {
   }
 }
 
-//   const parsedData = formSchema.safeParse({
-//     name: formData.get("name") as string,
-//     mail: formData.get("mail") as string,
-//     message: formData.get("message") as string,
-//     subject: formData.get("subject") as string,
-//   });
 //   if (!parsedData.success) {
 //     let errorMesssage = "";
 

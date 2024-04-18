@@ -1,5 +1,5 @@
 import BuiltWith from "./builtWith";
-import ContactForm from "../contact/contactForm";
+import ContactForm from "../contact/form/contactForm";
 import ContactInfo from "../contact/contactInfo";
 
 const Footer: React.FC = () => {

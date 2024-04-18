@@ -1,4 +1,3 @@
-// import ContactInfo from "@/components/contact/contactInfo";
 import {
   Tailwind,
   Body,
