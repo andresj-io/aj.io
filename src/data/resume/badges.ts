@@ -51,7 +51,7 @@ export const badges: BadgesType = [
   },
   {
     id: "d9ad414d-b958-472f-b572-2fed2a439d05",
-    name: "IBM Garage Essentials",
+    name: "Basics of ABAP Programming on SAP BTP",
     link: "https://www.credly.com/badges/d9ad414d-b958-472f-b572-2fed2a439d05",
     image: "/images/badges/Basics_BTP_ABAP.png",
     issuer: "SAP",

@@ -24,8 +24,8 @@ const Experience: React.FC = () => {
           <div
             className={
               index % 2 !== 0
-                ? "timeline-end mb-10"
-                : "timeline-start md:text-end"
+                ? "timeline-end mb-10 timeline-box"
+                : "timeline-start md:text-end timeline-box"
             }
           >
             <time className="font-mono italic">{item.date}</time>

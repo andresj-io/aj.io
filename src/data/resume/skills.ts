@@ -37,7 +37,7 @@ export const skills: SkillsType = [
   },
   {
     title: "1 month",
-    value: "ReactJS",
+    value: "React",
     description: "",
   },
 
