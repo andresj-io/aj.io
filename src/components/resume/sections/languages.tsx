@@ -10,7 +10,7 @@ const Languages = () => {
             <div className="stat-title text-info flex justify-center">
               {language.profficiency}
             </div>
-            <div className="stat-value my-1 text-primary">
+            <div className="stat-value my-1 text-accent">
               {language.language}
             </div>
             <div className="stat-desc my-1 justify-center items-center flex ">
