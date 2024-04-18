@@ -3,7 +3,7 @@ import NavbarItems from "../sections";
 
 const Sidebar = () => {
   return (
-    <div className="drawer-side z-50">
+    <aside className="drawer-side z-50">
       <label
         htmlFor="my-drawer-3"
         aria-label="close sidebar"
@@ -12,7 +12,7 @@ const Sidebar = () => {
       <ul className="menu bg-base-200 min-h-full w-80 p-4">
         <NavbarItems />
       </ul>
-    </div>
+    </aside>
   );
 };
 
