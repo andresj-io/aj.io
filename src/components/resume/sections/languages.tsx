@@ -3,7 +3,7 @@ import React from "react";
 
 const Languages = () => {
   return (
-    <div className="carousel rounded bg-neutral mb-2 space-x-2 p-2 flex justify-center">
+    <div className="carousel rounded mb-2 space-x-2 p-2 flex justify-center">
       <div className="stats stats-horizontal shadow">
         {languages.map((language, index) => (
           <div key={index} className="stat">

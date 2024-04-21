@@ -3,7 +3,7 @@ import { skills } from "@/data/resume/skills";
 
 const Skills: React.FC = () => {
   return (
-    <div className="carousel flex rounded bg-neutral mb-2 max-w-full space-x-2 p-2">
+    <div className="carousel flex rounded mb-2 max-w-full space-x-2 p-2">
       <div className="stats stats-horizontal shadow">
         {skills.map((item, index) => (
           <div key={index} className="stat">

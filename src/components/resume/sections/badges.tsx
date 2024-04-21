@@ -7,7 +7,7 @@ const Badges = () => {
     (a, b) => b.issuingDate.getTime() - a.issuingDate.getTime(),
   );
   return (
-    <div className="carousel bg-neutral flex rounded space-x-2 p-2 gap-2">
+    <div className="carousel flex rounded space-x-2 p-2 gap-2">
       {sortedBadges.map((badge) => (
         <BadgeCard badge={badge} key={badge.id} />
       ))}

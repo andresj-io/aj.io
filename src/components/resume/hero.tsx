@@ -37,18 +37,18 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex">
             <Link
-              className="btn btn-primary btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg mr-5"
+              className="btn btn-primary btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg mr-5 hover:animate-pulse"
               href="/#footer"
             >
               Contact Me
             </Link>
             <Link
-              className="btn btn-accent btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg ml-5"
+              className="btn btn-accent btn-outline btn-xs sm:btn-sm md:btn-md lg:btn-lg ml-5 hover:animate-pulse"
               href="/documents/CV_AndresJacome.pdf"
               download="CV_AndresJacome.pdf"
               target="_blank"
             >
-              Get my CV
+              Download CV
             </Link>
           </div>
         </div>
