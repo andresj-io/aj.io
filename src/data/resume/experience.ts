@@ -9,19 +9,32 @@ export type ExperienceType = {
 
 export const experience: ExperienceType = [
   {
-    date: "2024 - Present",
+    date: "Jun. 2024 - Present",
+    role: "ABAP Sr. Consultant",
+    company: "Z Dev LLC",
+    project: "SAP - Salesforce Integration - Europe",
+    link: "",
+    details: [
+      `I am currently working on the integration project at Perrigo, where I am responsible for building web APIs via proxy interfaces.`,
+      `I collaborate with teams from Salesforce, SAP CPI, and SAP functional to ensure successful process integration.`,
+      ` am developing an object-oriented solution to represent each process, allowing multiple processes to follow the same model.
+      I am also creating unit test classes to cover all possible scenarios and minimize errors.`,
+    ],
+  },
+  {
+    date: "Feb. 2024 - Sep. 2024",
     role: "ABAP S/4 Sr. Consultant",
     company: "Z Dev LLC",
     project: "ENAFOR S/4HANA Migration - Algeria",
     link: "https://www.linkedin.com/company/algerian-national-drilling-company-enafor/",
     details: [
-      `I'm currently working in the migration from SAP ECC to SAP S/4HANA project at
-      Enafor, an oil & gas company in Algeria.Employed by Logient, a
+      `I worked in the migration from SAP ECC to SAP S/4HANA project at
+      Enafor, an oil & gas company in Algeria. Employed by Logient, a
       Canadian company, to lead the technological transition.`,
       `Collaborating with cross - functional teams to ensure the successful
       migration and system integration. Developed UT classes, code fixes
       and performed troubleshooting to facilitate a smooth transition to
-      the SAP S / 4HANA platform.`,
+      the SAP S/4HANA platform.`,
     ],
   },
   {
