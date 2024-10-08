@@ -17,7 +17,7 @@ export const experience: ExperienceType = [
     details: [
       `I am currently working on the integration project at Perrigo, where I am responsible for building web APIs via proxy interfaces.`,
       `I collaborate with teams from Salesforce, SAP CPI, and SAP functional to ensure successful process integration.`,
-      ` am developing an object-oriented solution to represent each process, allowing multiple processes to follow the same model.
+      `I am developing an object-oriented solution to represent each process, allowing multiple processes to follow the same model.
       I am also creating unit test classes to cover all possible scenarios and minimize errors.`,
     ],
   },
