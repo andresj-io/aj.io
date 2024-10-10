@@ -12,7 +12,7 @@ export const experience: ExperienceType = [
     date: "Jun. 2024 - Present",
     role: "ABAP Sr. Consultant",
     company: "Z Dev LLC",
-    project: "SAP - Salesforce Integration - Europe",
+    project: "SAP - Salesforce Integration - Perrigo Europe",
     link: "",
     details: [
       `I am currently working on the integration project at Perrigo, where I am responsible for building web APIs via proxy interfaces.`,
