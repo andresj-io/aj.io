@@ -14,7 +14,7 @@ const Navbar = () => {
           <NavbarItems />
         </ul>
       </div>
-      <SitesLinks />
+      {/* <SitesLinks /> */}
     </header>
   );
 };
