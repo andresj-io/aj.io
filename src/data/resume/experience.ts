@@ -32,9 +32,9 @@ export const experience: ExperienceType = [
       Enafor, an oil & gas company in Algeria. Employed by Logient, a
       Canadian company, to lead the technological transition.`,
       `Collaborating with cross - functional teams to ensure the successful
-      migration and system integration. Developed UT classes, code fixes
-      and performed troubleshooting to facilitate a smooth transition to
-      the SAP S/4HANA platform.`,
+      migration and system integration. Developed CDS views for reports,
+      UT classes, code fixes and performed troubleshooting to facilitate a
+      smooth transition to the SAP S/4HANA platform.`,
     ],
   },
   {
@@ -46,9 +46,9 @@ export const experience: ExperienceType = [
     details: [
       `I focused on coordinating project planning with the functional team,
       conducting WRICEF estimates, analyzing requirement feasibility,
-      technical design, and documentation, ABAP development, code review,
-      quality assurance, team supervision using Scrum, and mentoring on
-      the new S/4HANA ABAP programming paradigm.`,
+      technical design, and documentation. ABAP development mostly in RAP for new reports,
+      performed code review, quality assurance, team supervision using Scrum,
+      and mentoring on the new S/4HANA ABAP programming paradigm.`,
     ],
   },
   {
