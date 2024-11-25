@@ -46,7 +46,7 @@ export const experience: ExperienceType = [
     details: [
       `I focused on coordinating project planning with the functional team,
       conducting WRICEF estimates, analyzing requirement feasibility,
-      technical design, and documentation. ABAP development mostly in RAP for new reports,
+      technical design, and documentation. ABAP development mostly in RAP for new reports and custom APIs,
       performed code review, quality assurance, team supervision using Scrum,
       and mentoring on the new S/4HANA ABAP programming paradigm.`,
     ],
