@@ -9,16 +9,28 @@ export type ExperienceType = {
 
 export const experience: ExperienceType = [
   {
-    date: "Jun. 2024 - Present",
+    date: "May 2024 - Present",
+    role: "ABAP RAP Developer",
+    company: "Z Dev LLC",
+    project: "ROC - Repair Order Creation Internal App",
+    link: "https://www.hilti.group/",
+    details: [
+      `I am currently working on the creation of ROC App in Hilti, where I am responsible for the backend implementation of the App.`,
+      `The app is developed using CAP for the frontend and RAP for the backend`,
+      `My main tasks for this project have been fixing existing bugs, adding extra features/functionalities that are needed by the business`,
+    ],
+  },
+  {
+    date: "Jun. 2024 - July. 2025",
     role: "ABAP Sr. Consultant",
     company: "Z Dev LLC",
     project: "SAP - Salesforce Integration - Perrigo Europe",
     link: "",
     details: [
-      `I am currently working on the integration project at Perrigo, where I am responsible for building web APIs via proxy interfaces.`,
+      `I worked on the integration project at Perrigo, where I am responsible for building web APIs via proxy interfaces and CDS views.`,
       `I collaborate with teams from Salesforce, SAP CPI, and SAP functional to ensure successful process integration.`,
-      `I am developing an object-oriented solution to represent each process, allowing multiple processes to follow the same model.
-      I am also creating unit test classes to cover all possible scenarios and minimize errors.`,
+      `I developped an object-oriented solution to represent each process, allowing multiple processes to follow the same model.
+      I created unit test classes to cover all possible scenarios and minimize errors.`,
     ],
   },
   {

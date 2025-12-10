@@ -4,7 +4,7 @@ export const generalData = {
   jobTitle: "Senior ABAP S/4HANA Consultant",
   website: "https://andresj.io",
   about:
-    "Hey there! I'm Andres, a senior ABAP consultant with 6 years of experience in ABAP development.",
+    "Hey there! I'm Andres, a senior ABAP consultant with 7 years of experience in ABAP development.",
   contacts: [
     {
       label: "Email",
